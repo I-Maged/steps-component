@@ -1,10 +1,11 @@
+import DateCounter from "./components/DateCounter"
 import StepMessage from "./components/StepMessage"
 import Stepst from "./components/Stepst"
 
 const App = () => {
   return (
     <div>
-      <Stepst />
+      {/* <Stepst />
       <StepMessage step={1}>
         <p>Pass in content</p>
         <p>✌️</p>
@@ -12,7 +13,8 @@ const App = () => {
       <StepMessage step={2}>
         <p>Read children prop</p>
         <p>😎</p>
-      </StepMessage>
+      </StepMessage> */}
+      <DateCounter />
     </div>
   )
 }
